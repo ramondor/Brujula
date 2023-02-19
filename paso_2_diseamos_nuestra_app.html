@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Paso 2: Diseñamos nuestra app | La Brújula de Magallanes </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="José Ramón Dorado Repiso" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-2"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">La Brújula de Magallanes</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">La Brújula de Magallanes</a></li>
+   <li><a href="la_misin.html" class="no-ch">La misión</a></li>
+   <li><a href="diario_de_aprendizaje.html" class="no-ch">Diario de Aprendizaje</a></li>
+   <li><a href="paso_1_creamos_el_proyecto_en_app_inventor.html" class="no-ch">Paso 1: Creamos el proyecto en App Inventor</a></li>
+   <li id="active"><a href="paso_2_diseamos_nuestra_app.html" class="active no-ch">Paso 2: Diseñamos nuestra app</a></li>
+   <li><a href="paso_3_programamos.html" class="no-ch">Paso 3: Programamos</a></li>
+   <li><a href="paso_4_comprobamos_e_instalamos.html" class="no-ch">Paso 4: Comprobamos e instalamos</a></li>
+   <li><a href="evaluacin_y_premios.html" class="no-ch">Evaluación y Premios</a></li>
+   <li><a href="_gua_didctica.html" class="no-ch">- Guía didáctica</a></li>
+   <li><a href="_ficha_tcnica_crditos_y_descarga.html" class="no-ch">- Ficha técnica, créditos y descarga</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="paso_1_creamos_el_proyecto_en_app_inventor.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="paso_3_programamos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Paso 2: Diseñamos nuestra app</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id5">
+<div class="iDevice emphasis0" >
+<div id="ta5_119_2" class="block iDevice_content">
+<div class="exe-text"><p>Añadimos los componentes con sus propiedades:<br />Listado de componentes:</p>
+<ul>
+<li>1 Disposición Vertical que incluye</li>
+<li>2 Disposiciones horizontales.</li>
+<li>3 Etiquetas.</li>
+<li>1 deslizador (para girar la manecilla de la brújula un ángulo determinado).</li>
+<li>1 Lienzo con 2 SpriteImagen.</li>
+<li>1 Sensor de orientación.</li>
+</ul>
+<table border="1" style="width: 55.432%; height: 671px;">
+<tbody>
+<tr style="height: 18px;">
+<td style="width: 24.0804%; height: 18px;"><strong>Componentes</strong></td>
+<td style="width: 31.3516%; height: 18px;"><strong>Propiedades</strong></td>
+</tr>
+<tr style="height: 75px;">
+<td style="width: 24.0804%; height: 75px;">DisposiciónVertical1</td>
+<td style="width: 31.3516%; height: 75px;">DispHorizontal: Centro<br />ColorDeFondo: Por defecto<br />Alto: Automático<br />Ancho: Ajustar al contenedor</td>
+</tr>
+<tr style="height: 75px;">
+<td style="width: 24.0804%; height: 75px;">DisposiciónHorizontal1</td>
+<td style="width: 31.3516%; height: 75px;">DispHorizontal: Izquierda<br />ColorDeFondo: Por defecto<br />Alto: 40 pixeles<br />Ancho: Ajustar al contenedor</td>
+</tr>
+<tr style="height: 75px;">
+<td style="width: 24.0804%; height: 75px;">Etiqueta1</td>
+<td style="width: 31.3516%; height: 75px;">ColorDeFondo: Ninguno<br />Alto: Automático<br />Ancho: Automático<br />Texto: “Azimut:”</td>
+</tr>
+<tr style="height: 75px;">
+<td style="width: 24.0804%; height: 75px;">Etiqueta (“et_azimut”)</td>
+<td style="width: 31.3516%; height: 75px;">ColorDeFondo: Naranja<br />Alto: Automático<br />Ancho: Automático<br />Texto: En blanco</td>
+</tr>
+<tr style="height: 75px;">
+<td style="width: 24.0804%; height: 75px;">DisposiciónHorizontal2</td>
+<td style="width: 31.3516%; height: 75px;">DispHorizontal: Izquierda<br />ColorDeFondo: Por defecto<br />Alto: 40 píxeles<br />Ancho: Ajustar al contenedor</td>
+</tr>
+<tr style="height: 75px;">
+<td style="width: 24.0804%; height: 75px;">Etiqueta3</td>
+<td style="width: 31.3516%; height: 75px;">ColorDeFondo: Ninguno<br />Alto: Automático<br />Ancho: Automático<br />Texto: “Introduce ángulo:“</td>
+</tr>
+<tr style="height: 131px;">
+<td style="width: 24.0804%; height: 131px;">Deslizador1</td>
+<td style="width: 31.3516%; height: 131px;">ColorIzquierda: Naranja<br />ColorDerecha: Por defecto<br />Ancho: Ajustar al contenedor<br />ValorMáximo: 180<br />ValorMínimo: -180<br />ThumbEnabled: Activo<br />PosiciónDelPulgar: 0</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.0804%; height: 18px;">Lienzo1</td>
+<td style="width: 31.3516%; height: 18px;">ColorDeFondo: Ninguno<br />ImagenDeFondo: Ninguno<br />Alto: 250 píxeles<br />Ancho: 250 píxeles</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.0804%; height: 18px;">SpriteImagen1 (brújula)</td>
+<td style="width: 31.3516%; height: 18px;">Dirección: 0<br />Alto: 230 píxeles<br />Ancho: 230 píxeles<br />Foto: “esfera.png”<br />Velocidad: 0.0<br />X: 7<br />Y: 10<br />Z: 1.0</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.0804%; height: 18px;">SpriteImagen2 (manecilla)</td>
+<td style="width: 31.3516%; height: 18px;">Dirección: 18<br />Alto: 185 píxeles<br />Ancho: 60 píxeles<br />Foto: “manecilla.png”<br />Velocidad: 0.0<br />X: 92<br />Y: 32<br />Z: 1.0</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.0804%; height: 18px;">SensorDeOrientación1</td>
+<td style="width: 31.3516%; height: 18px;">Habilitado: Activo</td>
+</tr>
+</tbody>
+</table>
+<p><br />La distribución de los componentes quedaría de la siguiente manera:</p>
+<p><img src="distribucion_Componentes.png" alt="Diseñador" title="Diseñador" width="853" height="743" style="display: block; margin-left: auto; margin-right: auto;" /></p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Observación" /></div><div class="feedback js-feedback js-hidden"><p><span style="font-size: 16.8px;">Establecemos una dirección igual a 18º para SpriteImagen2 en propiedades, debido a que la imagen de la manecilla aparece sobre la diagonal del rectángulo </span>que la contiene. Dado que los lados son de 185 y 60 píxeles, respectivamente, el ángulo que forma la diagonal respecto del lado vertical es igual al arcotangente (60/185) cuyo valor es, aproximadamente, 18º. Debemos recordar que los ángulos positivos tienen sentido antihorario, es decir, que para girar hacia la izquierda debemos añadir un ángulo positivo. Una dirección igual a 0 apunta hacia la derecha. Una dirección igual a 90º apunta hacia la parte superior de la pantalla</p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="paso_1_creamos_el_proyecto_en_app_inventor.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="paso_3_programamos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_escolares_js.js"></script></body></html>
